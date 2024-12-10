@@ -638,6 +638,9 @@ input[type=text]{
     }
 }
 @media(max-width: 790px){
+    .container{
+        max-width: 450px;
+    }
     .menu{
         position: absolute;
         display: flex;
@@ -664,9 +667,110 @@ input[type=text]{
       height: 40px;
       cursor: pointer;
       display: block;
-      margin-right: 60px;  
     }
     .header1{
         background-size: 100% 79.5%;
+    }
+    .advantages{
+        justify-content: space-evenly;
+    }
+    .aboutUsText:last-child{
+        margin-bottom: 20px;
+    }
+    .aboutUsText{
+        text-align: justify;
+    }
+    .buttonH1{
+        padding: 4px;
+        text-align: center;
+    }
+}
+@media(max-width: 560px){
+    .container{
+        max-width: 350px;
+
+    }
+    .header1{
+        background-size: 100% 75%
+    }
+    .footer {
+            flex-direction: column;
+            justify-content: center;
+        }
+    
+        .textRight {
+            margin: 0;
+            order: 0;
+        }
+    
+        .textLeft {
+            max-width: 300px;
+            order: 1;
+        }
+    
+        .listFooter {
+            padding-left: 0;
+        }
+    
+        .headerDiv {
+            margin-bottom: 4%;
+        }
+    
+        .listItem {
+            margin-bottom: 2%;
+        }
+    .rect1{
+        height: 80px;
+
+    }
+    .rect2{
+        height: 80px;
+    }
+    .main-label{
+        margin-top: 30%;
+    }
+    .features{
+        flex-direction: column;
+    }
+    .features-item{
+        margin-right: auto;
+        margin-bottom: 5%;
+        text-align: justify;
+    }
+    .catalog-header{
+        flex-direction: column;
+    }
+    .catalog-menu{
+        margin-top: 10%;
+        padding-left: 0;
+        margin-right: auto;
+        flex-wrap: wrap;
+    }
+    .nav{
+        margin-left: 0;
+    }
+    .m-menu{
+        margin-left: 200px;
+    }
+    .catalogs{
+        justify-content: center;
+        align-items: center;
+    }
+    .catalog-container{
+        margin-bottom: 30px;
+    }
+    .consultant-right{
+        max-width: 170px;
+        min-width: 170px;
+    }
+    
+    
+}
+@media(max-width: 350px){
+    .container{
+        max-width: 325px;
+    }
+    .menu-catalogItem{
+        margin-top: 15px;
     }
 }
